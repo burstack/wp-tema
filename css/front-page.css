@@ -1,0 +1,254 @@
+
+/* FRONT PAGE CONTENT FULLSCREEN WIDTH [media query] */
+	@media only screen and (min-width: 1220px) {
+	  .frontpage {
+	  	margin-left: calc(-100vw / 2 + 1220px / 2); 
+	  	margin-right: calc(-100vw / 2 + 1220px / 2);
+		}
+	}
+/* FRONT PAGE CONTENT FULLSCREEN WIDTH [media query] END */
+
+/* FRONT-PAGE INFO BOXES */
+  .overlay {
+    /*box-shadow: 0px 8px 40px black;*/
+    position: absolute;
+    background-color: rgba(39,62,84,0.55);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .banner {
+    box-shadow: 0px 8px 40px black;
+    height: 300px;
+    width: 100%;
+    margin: 22px 0 30px 0;
+  }
+  .banner-url2 {
+    background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/a-mapp.jpg');
+  }
+
+  .banner-url1 {
+    background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/a-saladd.jpg');
+  }
+  /* (for .banner-url see url.css) */
+  .info-titel {
+    background-color: rgba(39,62,84,0.55);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .info-titel>h3 {
+    color: #eeeeee;
+    margin: 0 0 10px 0;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  .info-titel>h2 {
+    color: #eeeeee;
+    margin: 0;
+    padding-top: 5%;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 90px;
+    letter-spacing: -3px;
+  }
+  .info-height {
+    height: 370px;
+    margin-bottom: 1px; 
+  }
+  .info-overlay {
+    background: rgba(39,62,84,0.55);
+    overflow: hidden;
+    height: 100%;
+  }
+  .info-pic-1 {
+    background-size: cover;
+    background-image: url("http://skyfarms.io/wp-content/themes/sky/icons/1.jpg");
+  }
+  .info-pic-2 {
+    background-size: cover;
+    background-image: url("http://skyfarms.io/wp-content/themes/sky/icons/2.jpg");
+  }
+  .info-pic-3 {
+    background-size: cover;
+    background-image: url("http://skyfarms.io/wp-content/themes/sky/icons/3.jpg");
+  }
+  .info-pic-4 {
+    background-size: cover;
+    background-image: url("http://skyfarms.io/wp-content/themes/sky/icons/4.jpg");
+  }
+  .info-pic-5 {
+    background-size: cover;
+    background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/5.jpg');
+  }
+  .info-pic-6 {
+    background-size: cover;
+    background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/6.jpg');
+  }
+  .info-pic-7 {
+    background-size: cover;
+    background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/7.jpg');
+  }
+  .info-frame {
+    box-shadow: 0px 8px 40px black; 
+    height:inherit;  
+    padding: 0;
+  }
+  .info-frame>a>.info-overlay>h3 {
+    text-transform: uppercase;
+    color: #eeeeee; 
+    margin: 0; 
+    padding: 3% 0 0 0; 
+    text-align: center;
+  }
+  .info-frame>a>.info-overlay>span {
+    line-height: 1.3;
+    padding: 6% 9% 2% 9%;
+    display: grid;
+    color: #eeeeee;
+  }
+  .sky-tweak {
+    height: 34px;
+    width: 30px;
+    background-repeat: no-repeat;
+    margin: 20% auto 9% auto;
+  }
+  .centrera {
+    text-align: center;
+  }
+/* FRONT-PAGE INFO BOXES END */
+
+/* FRONT PAGE CONTENT */
+  #first-page {
+    /*box-shadow: 0px 8px 40px #000000b0;*/
+    clear: both;
+  }
+  .titel-front {
+    box-shadow: 0px 8px 40px black;
+    padding: 0;
+    text-align: center;
+    letter-spacing: -2px;
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+  }
+  .titel-front>h1 {
+  	font-family: 'Maven Pro', sans-serif;
+    font-size: 79px;
+    padding: 5% 0 5% 0;
+    margin: 0;
+    background-color: #192432;
+    color: white;
+  }
+  .flx {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .sections {
+    padding: 2% 4% 2% 4% !important;
+  }
+  .sections>h1, h2, h3, h4, h5, h6, p, a, ul, li, pre, span {
+    position: relative;
+  }
+  .sectleft {
+    margin-right: 1.5%;
+    width: 48.5%;
+  }
+  .sectright {
+    margin-left: 1.5%;
+    width: 48.5%;
+  }
+  .shadow {
+    -webkit-box-shadow: 0px 8px 40px black;
+    box-shadow: 0px 8px 40px black;
+  }
+/* FRONT PAGE CONTENT END */
+
+/* FRONT PAGE PARTNERS [bottom front-page] */
+  #partner {
+  	margin-top: 2em;
+    -webkit-box-shadow: 0 0 40px rgba(0,0,0,0.31);
+    box-shadow: 0 0 40px rgba(0,0,0,0.31);
+  }
+  .partners>p {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 1px rgba(255, 255, 255, 0.3);
+    color: #99999d;
+    margin: 0px;
+    padding-top: 6px;
+  }
+/* FRONT PAGE PARTNERS [bottom front-page] END */
+
+/* BREAKPOINTS */
+  @media only screen and (min-width: 1440px) {
+    /* FRONT-PAGE INFO BOXES */
+      .info-frame>a>.info-overlay>span {
+        font-size: 1.3em;
+        padding: 3% 9% 3% 9%;
+      }
+    /* FRONT-PAGE INFO BOXES END */
+  }
+  @media only screen and (max-width: 1240px) {
+    /* FRONT-PAGE INFO BOXES */
+      .info-frame>a>.info-overlay>span {
+        font-size: 1.05em;
+        padding: 3% 9% 3% 9%;
+      }
+    /* FRONT-PAGE INFO BOXES END */
+  }
+  @media only screen and (max-width: 901px) {
+    /* FRONT-PAGE INFO BOXES */
+      .banner {
+        margin: 30px 0 0px 0;
+      }
+      .info-titel>h2 {
+        font-size: 36px;
+      }
+      .info-frame>a>.info-overlay>span {
+        font-size: 1.24em;
+        padding: 6% 11% 6% 11%;
+      }
+      .info-height {
+        margin-top: 30px; 
+      }
+    /* FRONT-PAGE INFO BOXES END */
+  }
+  @media only screen and (max-width: 500px) {
+    /* FRONT-PAGE INFO BOXES */
+      .info-titel>h3 {
+        font-size: 13px;
+        padding-bottom: 20px;
+      }
+      .info-frame>a>.info-overlay>span {
+        font-size: 1.2em;
+        padding: 9% 6% 3% 6%;
+      }
+      .flx {
+        display: block;
+      }
+      .titel-front>h1 {
+        font-size: 25px;
+        margin: 0;
+      }
+      #first-page>div {
+        min-height: 200px;
+      }
+    /* FRONT-PAGE INFO BOXES END */
+    /* FRONT-PAGE CONTENT */
+      .sectleft {
+        margin-right: 0;
+        width: 100%;
+      }
+      .sectright {
+        margin-left: 0;
+        width: 100%;
+      }
+    /* FRONT-PAGE CONTENT END*/
+
+  }
+/* BREAKPOINTS END */

@@ -1,0 +1,87 @@
+/* job page background */
+	.sjb-page {
+		background-color: #eee;
+	}
+	.sjb-page h3 {
+    display: none;
+	}
+	.job-date {
+		display: none;
+	}
+/* job page background end */
+/* CIRCLE ICONS IMG CONTAINER */
+		/* SKYFARMS */
+			.sky-tech {
+				background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/tech.png');
+				transform: scale(1.5, 1.5);
+				-ms-transform: scale(1.5, 1.5);
+				-webkit-transform: scale(1.5, 1.5);
+			}
+			.sky-info {
+				background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/info.png');
+				transform: scale(1.5, 1.5);
+				-ms-transform: scale(1.5, 1.5);
+				-webkit-transform: scale(1.5, 1.5);
+			}
+			.sky-farm {
+				background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/farm.png');
+				transform: scale(1.5, 1.5);
+				-ms-transform: scale(1.5, 1.5);
+				-webkit-transform: scale(1.5, 1.5);
+			}
+			.sky-logo {
+				background-image: url('http://skyfarms.io/wp-content/themes/sky/icons/mainxl.png');
+				transform: scale(1.5, 1.5);
+				-ms-transform: scale(1.5, 1.5);
+				-webkit-transform: scale(1.5, 1.5);
+			}
+	  /* SKYFARMS END */
+	.sky-icon-xl {
+		margin: 0 3%;
+    border-radius: 100%;
+    border: 2px solid #394e4e;
+    box-shadow: 1px 5px 18px rgba(0,0,0,0.46);
+    width: 220px;
+    height: 220px;
+    background-size: 188px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /*background-color: #6081a0;*/
+	}
+	.sky-icon-s {
+		margin: 0 3%;
+    border-radius: 100%;
+    /*border: 7px solid #394e4e;*/
+    box-shadow: 1px 4px 20px rgba(0,0,0,0.36);
+    width: 140px;
+    height: 140px;
+    background-size: 117px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /*background-color: #6081a0;*/
+	}
+/* CIRCLE ICONS IMG CONTAINER END */
+
+/* HEADER TWEAK MARGIN-BOTTOM */
+	.site-header {
+		margin-bottom: 10px !important;
+	}
+/* HEADER TWEAK MARGIN-BOTTOM  END */
+
+/* LEARNPRESS PLUGIN */
+	.post-2068 {
+		width: 100%;
+	}
+	/*.post-2068 {
+		width: 100%;
+	}*/
+/* LEARNPRESS PLUGIN END */
+
+/* BREAKPOINTS */
+  @media only screen and (max-width: 900px) {
+	  	.sky-icon-xl, .sky-icon-s {
+	    width: 140px;
+	    height: 140px;
+	    background-size: 100px;
+		}
+  }

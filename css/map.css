@@ -1,0 +1,35 @@
+  /* legend*/
+    .mod {
+      margin: 0;
+      width: 99%;
+    }
+    .mod-icon {
+      height: 25px;
+      width: 24px;
+      margin: 0 2px;
+    }
+    .mod-head>p {
+      text-align: center;
+    }
+    .mod-body {
+      width: 100%;
+      display: inline-flex;
+      text-align: center;
+    }
+    .mod-txt {
+      width: 33%;
+    }
+    .mod-txt>p {
+      text-align: center;
+      margin: 0;
+    }
+
+  /* legend end*/
+
+/* BREAKPOINTS */
+  @media only screen and (max-width: 900px) {
+    .mod-body {
+  
+    }
+
+  }

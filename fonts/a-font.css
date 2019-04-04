@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+h1 {
+	font-family: 'Maven Pro', sans-serif;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 26px;
+}
+
+h5 {
+	font-size: 23px;
+}
+
+h6 {
+	font-size: 21px;
+}
+
+p {
+	font-size: 15px;
+	font-family: 'Maven Pro', sans-serif;
+	text-align: justify;
+}
+
+pre {
+	margin: 0.6em 1.3em 0.6em 1.3em;
+}
+
+.button {
+  border-radius: 5px !important;
+  border: 2px solid #3d3839 !important;
+  background-color: rgba(156, 205, 98, 0) !important;
+  color: #3d3839 !important;
+  padding: 9px 10px 7px 10px;
+  margin: 0.2em 2.6em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+/* BREAKPOINTS */
+	@media only screen and (max-width: 900px) {
+
+		h1 {
+			font-size: 22px;
+			margin: 0;
+		}
+		h2 {
+			font-size: 20px;
+			margin: 0;
+			padding: 0;
+		}
+		h3 {
+			font-size: 18px;
+			margin: 0;
+			padding: 0;
+		}
+		h4 {
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+		h5 {
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}
+		h6 {
+			font-size: 12px;
+			margin: 0;
+			padding: 0;
+		}
+		p {
+			font-size: 12px;
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			font-size: 14px;
+			margin: 0;
+			padding: 0;
+		}
+		ul {
+			font-size: 11px;
+			margin: 0px 1%;
+			padding: 0 1.6em 0.6em 1.6em;
+		}
+		li {
+			font-size: 11px;
+			margin: 0px 1%;
+			padding: 0px;
+		}
+		ol {
+			font-size: 11px;
+			margin: 0px 1%;
+			padding: 0 1.6em 0.6em 1.6em;
+		}
+	}
+/* BREAKPOINTS END */
